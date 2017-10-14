@@ -1,0 +1,19 @@
+/* =================================
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        flex-direction: row;
+    }
+    .box {
+        align-self: center;
+        align-items: baseline;
+    }
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #fdde7e;
+    width: 1200px;
+    margin: auto;
+}
+.box {
+    width: 362px;
+    text-align: center;
+    padding: 34px 0 28px;
+    background-color: white;
+    font-family: 'LatoLight', sans-serif;
+    margin: 30px;
+}
+.box-hover {
+    width: 362px;
+    text-align: center;
+    padding: 52px 0 58px;
+}
+.price {
+    color: #02995b;
+    font-size: 70px;
+    margin-bottom: 23px;
+}
+.bronze {
+    background: url(../img/bean1.png) no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.picture {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    text-align: center;
+}
+.picture-bronze {
+    background: url(../img/bean1.png) no-repeat;
+}
+.picture-gold {
+    background: url(../img/bean2.png) no-repeat;
+}
+.picture-silver {
+    background: url(../img/bean3.png) no-repeat;
+}
+.name {
+    margin: 35px 0 37px;
+}
